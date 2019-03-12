@@ -36,6 +36,7 @@
         <executions>
           <execution>
             <id>generate-rpm</id>
+            <phase>build</phase>
             <goals>
               <goal>rpm</goal>
             </goals>
